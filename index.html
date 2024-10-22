@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Flashcard Turma N</title>
 </head>
 <body>
@@ -35,7 +36,7 @@
             </article>
             
             <article class="cartão">
-                <div class="Cartão__Conteúdo">
+                <div class="cartao__conteudo">
                     <h3>Biologia</h3>
                     <div class="cartao__conteudo__pergunta">
                         <p>Qual a importância das abelhas para o ecossistema?</p>
@@ -48,22 +49,28 @@
             </article>
             
             <article class="cartao">
-                <div class="flashcard">
-                    <h2>Pergunta 1</h2>
+                <div class="cartao__conteudo">
+                    <h3>Pergunta 1</h3>
                     <p>Qual é a fórmula da área do círculo?</p>
                     <button onclick="document.getElementById('resposta1').style.display='block'">Mostrar Resposta</button>
                     <p id="resposta1" style="display:none;">A = πr²</p>
                 </div>
+            </article>
             
-                <div class="flashcard">
-                    <h2>Pergunta 2</h2>
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Pergunta 2</h3>
                     <p>Qual é a soma dos ângulos internos de um triângulo?</p>
                     <button onclick="document.getElementById('resposta2').style.display='block'">Mostrar Resposta</button>
                     <p id="resposta2" style="display:none;">180 graus</p>
                 </div>
             </article>
-        
         </section>
+
+        <footer>
+            <p>Projeto desenvolvido pela Turma N - 3ª Jornada</p>
+        </footer>  
+        
     </main>
 </body>
 </html>
