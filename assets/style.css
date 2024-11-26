@@ -73,6 +73,7 @@ body {
   .cartao__conteudo__resposta{
     transform: rotateY(180deg);
     background-color: rgba(16, 48, 43, 0.2);
+    border: 4px solid var(--card-back-color);
   }
 
   footer {
