@@ -72,7 +72,7 @@ body {
 
   .cartao__conteudo__resposta{
     transform: rotateY(180deg);
-    background-color: rgba(16, 48, 43);
+    background-color: rgba(16, 48, 43, 0.2);
   }
 
   footer {
