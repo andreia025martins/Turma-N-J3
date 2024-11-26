@@ -2,8 +2,8 @@
 
 :root{
   --text-color: #ffffff;
-  --card-front-color: #BC9E3E;
-  --card-back-color: #10302b;
+  --card-front-color: #bc9e3e;
+  --card-back-color: rgb(16, 48, 43);
 }
 
 body {
@@ -55,6 +55,7 @@ body {
   .cartao__conteudo__resposta p {
     color: var(--card-back-color);
     font-weight: 700;
+    
   }
 
   .cartao:hover .cartao__conteudo{
@@ -71,6 +72,7 @@ body {
 
   .cartao__conteudo__resposta{
     transform: rotateY(180deg);
+    background-color: rgba(16, 48, 43);
   }
 
   footer {
